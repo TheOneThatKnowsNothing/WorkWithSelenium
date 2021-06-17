@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\tests.csproj": {}
+    "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\tests\\tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\tests.csproj": {
+    "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\tests\\tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\tests.csproj",
+        "projectUniqueName": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\tests\\tests.csproj",
         "projectName": "tests",
-        "projectPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\tests.csproj",
+        "projectPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\tests\\tests.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

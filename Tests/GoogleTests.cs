@@ -18,6 +18,7 @@ namespace tests
             var options = new ChromeOptions();
             options.AddArguments
                 (
+                    "--incognito",
                     "--start-maximized",
                     "--disable-extensions",
                     "--disable-notifications",
