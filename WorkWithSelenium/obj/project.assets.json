@@ -5273,11 +5273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium.csproj",
+      "projectUniqueName": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
       "projectName": "WorkWithSelenium",
-      "projectPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium.csproj",
+      "projectPath": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\obj\\",
+      "outputPath": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
