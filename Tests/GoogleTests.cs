@@ -41,20 +41,5 @@ namespace tests
             Assert.IsNotNull(page.ClickSearch());
         }
     }
-    public class TestingFirstText:GoogleTests
-    {
-        [Test]
-        public void TestFirstText()
-        {
-            TestGoogleSearch("German Shepherd");
-        }
-    }
-    public class SecondFirstText:GoogleTests
-    {
-        [Test]
-        public void TestSecondText()
-        {
-            TestGoogleSearch("Cypress");
-        }
-    }
+    
 }

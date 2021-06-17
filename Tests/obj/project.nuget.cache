@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r6Kp3rWMo+GlZVaT6YDCMXpJWNggOZ4CnCIbR9UwUB08bnSt5hdpPOr4ti/UBT62S8hJRsJOo0aiFLrbLaWfrQ==",
+  "dgSpecHash": "Y6XuS8GckXK2DfiCRqWRhRfb7aRrsFTc2y4Xto0ix55nrT+I5n3rv15tL541XxKYnIt9B/SfniSWlOQ+LHjBqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\tests\\tests.csproj",
+  "projectFilePath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
