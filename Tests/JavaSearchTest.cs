@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace tests
 {
-    public class JavaSearchTest:GoogleTests
+    public class JavaSearchTest:TestFramework
     {
         [Test]
         public void SearchTest()

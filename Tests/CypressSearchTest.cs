@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace tests
 {
-    public class CypressSearchTest:GoogleTests
+    public class CypressSearchTest:TestFramework
     {
         [Test]
         public void SearchTest()

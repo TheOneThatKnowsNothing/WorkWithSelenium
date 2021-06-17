@@ -8,7 +8,7 @@ using System;
 
 namespace tests
 {
-    public class GoogleTests
+    public class TestFramework
     {
         public IWebDriver Driver { get; set; }
         //public WebDriverWait Wait { get; set; }
@@ -26,15 +26,12 @@ namespace tests
                 );
             Driver = new ChromeDriver("C:/WebDriver/bin/",options);
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            Driver.Navigate().GoToUrl(@"https://www.google.com/");
         }
         [TearDown]
         public void TearDown()
         {
             Driver.Quit();
         }
-
-        //[Test]
         public void TestGoogleSearch(string input)
         {
             GoogleMainPage page = new GoogleMainPage(Driver);
