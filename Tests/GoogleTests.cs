@@ -33,12 +33,28 @@ namespace tests
             Driver.Quit();
         }
 
-        [Test]
-        public void TestGoogleSearch()
+        //[Test]
+        public void TestGoogleSearch(string input)
         {
             GoogleMainPage page = new GoogleMainPage(Driver);
-            page.InputSearch("German Shepherd");
+            page.InputSearch(input);
             Assert.IsNotNull(page.ClickSearch());
+        }
+    }
+    public class TestingFirstText:GoogleTests
+    {
+        [Test]
+        public void TestFirstText()
+        {
+            TestGoogleSearch("German Shepherd");
+        }
+    }
+    public class SecondFirstText:GoogleTests
+    {
+        [Test]
+        public void TestSecondText()
+        {
+            TestGoogleSearch("Cypress");
         }
     }
 }
