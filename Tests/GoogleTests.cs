@@ -23,8 +23,9 @@ namespace tests
                     "--disable-notifications",
                     "--disable-application-cache"
                 );
-            IWebDriver driver = new ChromeDriver("C:/WebDriver/bin/",options);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            Driver = new ChromeDriver("C:/WebDriver/bin/",options);
+            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            Driver.Navigate().GoToUrl(@"https://www.google.com/");
         }
         [TearDown]
         public void TearDown()
@@ -33,9 +34,11 @@ namespace tests
         }
 
         [Test]
-        public void TestSearch()
+        public void TestGoogleSearch()
         {
-            Assert.Pass();
+            GoogleMainPage page = new GoogleMainPage(Driver);
+            page.InputSearch("German Shepherd");
+            Assert.IsNotNull(page.ClickSearch());
         }
     }
 }

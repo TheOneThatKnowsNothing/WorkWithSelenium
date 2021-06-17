@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TkVjTtKnIZT3ovsIuZf9RkVby/DM0bMWz7Ac349HfUjU+86nPmgWeMjl+sog+KA3m3/DUnFKnRnU9vfISvnNRQ==",
+  "dgSpecHash": "HTRz45VbpS573MY9k3JmAnwB+kXYLr+tNhRXECRatcIfdEw7Q4eaYf8BofhNXTtFsWwmnEBPSdY0jjSs8v0YjA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
+  "projectFilePath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

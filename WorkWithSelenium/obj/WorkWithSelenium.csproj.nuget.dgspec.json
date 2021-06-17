@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {}
+    "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {}
   },
   "projects": {
-    "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {
+    "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
+        "projectUniqueName": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
         "projectName": "WorkWithSelenium",
-        "projectPath": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
+        "projectPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\obj\\",
+        "outputPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

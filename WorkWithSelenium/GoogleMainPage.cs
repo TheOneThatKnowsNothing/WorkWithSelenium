@@ -1,6 +1,6 @@
 using System;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
+
 
 namespace PageObjectPattern
 {
@@ -10,14 +10,11 @@ namespace PageObjectPattern
         public GoogleMainPage(IWebDriver driver)
         {
             Driver=driver;
-            this.Driver.Manage().Window.Maximize();
         }
-        [FindsBy(How = How.CssSelector, Using = ".gLFyf.gsfi")]
-        IWebElement SearchBox { get; set; }
-        [FindsBy(How = How.XPath, Using = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[2]/center/input[1]")]
-        IWebElement SearchButton { get; set; }
-        [FindsBy(How = How.XPath, Using = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[2]/center/input[2]")]
-        IWebElement DoodlesButton { get; set; }
+        IWebElement SearchBox => Driver.FindElement(By.CssSelector(".gLFyf.gsfi"));
+        IWebElement SearchButton => Driver.FindElement(By.XPath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[2]/center/input[1]"));
+        IWebElement DoodlesButton => Driver.FindElement(By.XPath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[2]/center/input[2]"));
+
         // public GoogleMainPage GetGoogleMainPage()
         // {
 
@@ -30,9 +27,10 @@ namespace PageObjectPattern
         {
             this.SearchBox.SendKeys(textToType);
         }
-        public SearchResultsPage ClickSearch(string textToType)
+        public SearchResultsPage ClickSearch()
         {
-            if(string.IsNullOrWhiteSpace(this.SearchBox.Text))
+            string Input= SearchBox.GetAttribute("value");
+            if(string.IsNullOrWhiteSpace(Input))
                 return null;
             this.SearchButton.Click();
             return new SearchResultsPage(this.Driver);

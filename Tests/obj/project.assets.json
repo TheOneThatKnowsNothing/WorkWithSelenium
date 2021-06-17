@@ -4929,7 +4929,6 @@
       "NUnit >= 3.13.1",
       "NUnit3TestAdapter >= 3.17.0",
       "Selenium.Support >= 3.141.0",
-      "Selenium.Support.PageObjects >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
       "WorkWithSelenium >= 1.0.0",
       "coverlet.collector >= 3.0.2"
@@ -4941,11 +4940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\tests.csproj",
+      "projectUniqueName": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\tests\\tests.csproj",
       "projectName": "tests",
-      "projectPath": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\tests.csproj",
+      "projectPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\tests\\tests.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4960,8 +4959,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {
-              "projectPath": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj"
+            "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {
+              "projectPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj"
             }
           }
         }
@@ -4992,10 +4991,6 @@
             "target": "Package",
             "version": "[3.141.0, )"
           },
-          "Selenium.Support.PageObjects": {
-            "target": "Package",
-            "version": "[3.141.0, )"
-          },
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[3.141.0, )"
@@ -5023,16 +5018,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Selenium.Support.PageObjects. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "Selenium.Support.PageObjects",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

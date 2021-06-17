@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j+0Q1S5bPR8iiv68mtsjxDtXN/2QmnNVFWmC4KmOHBhD5hDS+9IzY2uvTraWY3KoOV2kkhzx9YpqDeGqorrvEw==",
-  "success": false,
-  "projectFilePath": "c:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\tests.csproj",
+  "dgSpecHash": "Y6XuS8GckXK2DfiCRqWRhRfb7aRrsFTc2y4Xto0ix55nrT+I5n3rv15tL541XxKYnIt9B/SfniSWlOQ+LHjBqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\Tests\\tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
@@ -71,15 +71,5 @@
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Selenium.Support.PageObjects. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "Selenium.Support.PageObjects",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
