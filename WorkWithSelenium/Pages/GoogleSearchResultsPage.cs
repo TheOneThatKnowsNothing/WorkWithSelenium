@@ -2,10 +2,10 @@ using OpenQA.Selenium;
 
 namespace PageObjectPattern
 {
-    public class SearchResultsPage
+    public class GoogleSearchResultsPage
     {
         private readonly IWebDriver Driver;
-        public SearchResultsPage(IWebDriver driver)
+        public GoogleSearchResultsPage(IWebDriver driver)
         {
            Driver = driver;
         }

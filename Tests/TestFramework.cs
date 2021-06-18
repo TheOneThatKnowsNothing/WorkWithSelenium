@@ -37,6 +37,7 @@ namespace tests
             GoogleMainPage page = new GoogleMainPage(Driver);
             page.InputSearch(input);
             Assert.IsNotNull(page.ClickSearch());
+            
         }
     }
     

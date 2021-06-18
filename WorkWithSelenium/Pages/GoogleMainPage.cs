@@ -16,7 +16,7 @@ namespace PageObjectPattern
         IWebElement SearchButton => Driver.FindElement(By.XPath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[2]/center/input[1]"));
         IWebElement DoodlesButton => Driver.FindElement(By.XPath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[2]/center/input[2]"));
 
-        public void ClearSearch()
+        public void ClearSearchBox()
         {
              this.SearchBox.Clear();
         }
@@ -24,13 +24,13 @@ namespace PageObjectPattern
         {
             this.SearchBox.SendKeys(textToType);
         }
-        public SearchResultsPage ClickSearch()
+        public GoogleSearchResultsPage ClickSearch()
         {
             string Input= SearchBox.GetAttribute("value");
             if(string.IsNullOrWhiteSpace(Input))
                 return null;
             this.SearchButton.Click();
-            return new SearchResultsPage(this.Driver);
+            return new GoogleSearchResultsPage(this.Driver);
         }
         public void ClickDoodles()
         {
