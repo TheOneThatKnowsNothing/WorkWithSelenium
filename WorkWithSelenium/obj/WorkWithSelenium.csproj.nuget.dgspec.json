@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {}
+    "C:\\Users\\Felix Kjellberg\\source\\repos\\VSCode_Projects\\Work\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {
+    "C:\\Users\\Felix Kjellberg\\source\\repos\\VSCode_Projects\\Work\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
+        "projectUniqueName": "C:\\Users\\Felix Kjellberg\\source\\repos\\VSCode_Projects\\Work\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
         "projectName": "WorkWithSelenium",
-        "projectPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\VSCodeProjects\\WorkWithSelenium\\WorkWithSelenium\\obj\\",
+        "projectPath": "C:\\Users\\Felix Kjellberg\\source\\repos\\VSCode_Projects\\Work\\WorkWithSelenium\\WorkWithSelenium\\WorkWithSelenium.csproj",
+        "packagesPath": "C:\\Users\\Felix Kjellberg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felix Kjellberg\\source\\repos\\VSCode_Projects\\Work\\WorkWithSelenium\\WorkWithSelenium\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Felix Kjellberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

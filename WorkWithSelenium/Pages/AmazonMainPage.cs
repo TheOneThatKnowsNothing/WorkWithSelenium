@@ -19,7 +19,7 @@ namespace PageObjectPattern
         {
             this.Filter.Click();
         }
-        public void OpenBooks()
+        public void CheckBooks()
         {
             this.Books.Click();
         }

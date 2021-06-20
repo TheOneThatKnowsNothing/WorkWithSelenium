@@ -38,3 +38,23 @@ C:\Users\user\VSCodeProjects\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\
 C:\Users\user\VSCodeProjects\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\ref\WorkWithSelenium.dll
 C:\Users\user\VSCodeProjects\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.pdb
 C:\Users\user\VSCodeProjects\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.genruntimeconfig.cache
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\WorkWithSelenium.exe
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\WorkWithSelenium.deps.json
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\WorkWithSelenium.runtimeconfig.json
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\WorkWithSelenium.runtimeconfig.dev.json
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\WorkWithSelenium.dll
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\ref\WorkWithSelenium.dll
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\WorkWithSelenium.pdb
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\WebDriver.Support.dll
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\bin\Debug\net5.0\WebDriver.dll
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.csproj.AssemblyReference.cache
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.AssemblyInfoInputs.cache
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.AssemblyInfo.cs
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.csproj.CoreCompileInputs.cache
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.csproj.CopyComplete
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.dll
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\ref\WorkWithSelenium.dll
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.pdb
+C:\Users\Felix Kjellberg\source\repos\VSCode_Projects\Work\WorkWithSelenium\WorkWithSelenium\obj\Debug\net5.0\WorkWithSelenium.genruntimeconfig.cache

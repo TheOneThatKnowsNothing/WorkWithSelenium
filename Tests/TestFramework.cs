@@ -32,13 +32,7 @@ namespace tests
         {
             Driver.Quit();
         }
-        public void TestGoogleSearch(string input)
-        {
-            GoogleMainPage page = new GoogleMainPage(Driver);
-            page.InputSearch(input);
-            Assert.IsNotNull(page.ClickSearch());
-            
-        }
+        
     }
     
 }
