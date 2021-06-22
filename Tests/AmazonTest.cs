@@ -23,13 +23,12 @@ namespace tests
             AmazonSearchResultsPage resPage = searchPage.ClickSearch();
             
             var books = resPage.PopulateBooks();
-
-            //Assert.Contains(toCompare,books);
-            //Assert.That(books.Any(p => p.Name == "Head First Java, 2nd Edition"));
+            
+            Assert.That(books.Any(p => p.Equals(toCompare)));
             //Assert.IsNotNull();
             //Assert.IsNotEmpty(resPage.PopulateBooks());
             
-            Assert.Zero(books.Count());
+            //Assert.Zero(books.Count());
         }
     }
 }

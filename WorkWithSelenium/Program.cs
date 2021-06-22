@@ -53,10 +53,10 @@ namespace WorkWithSelenium
                     
                     a.IsBestSeller= item.FindElements(By.XPath("div/span/div/div/div[1]/div/span/div/span/span[1]/span/span")).Count()!=0;
 
-                    // Console.WriteLine(a.Name);
-                    // Console.WriteLine(a.Author);
-                    // Console.WriteLine(a.Price);
-                    // Console.WriteLine(a.IsBestSeller);
+                    Console.WriteLine(a.Name);
+                    Console.WriteLine(a.Author);
+                    Console.WriteLine(a.Price);
+                    Console.WriteLine(a.IsBestSeller);
                 }            
             }finally{
                 driver.Quit();
