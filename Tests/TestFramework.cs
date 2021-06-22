@@ -11,7 +11,6 @@ namespace tests
     public class TestFramework
     {
         public IWebDriver Driver { get; set; }
-        //public WebDriverWait Wait { get; set; }
         [SetUp]
         public void Setup()
         {
@@ -31,6 +30,18 @@ namespace tests
         public void TearDown()
         {
             Driver.Quit();
+        }
+        public static bool IsElementPresent(IWebElement element,By by)
+        {
+            try
+            {
+                element.FindElement(by);
+                return true;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
         
     }

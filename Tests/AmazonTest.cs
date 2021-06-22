@@ -8,12 +8,14 @@ namespace tests
         [Test]
         public void JavaSearchTest()
         {
-        AmazonMainPage page = new AmazonMainPage(Driver);
-        page.InputSearch("Java");
-        page.OpenFilter();
-        page.CheckBooks();
-        page.ClickSearch();
-        //Assert.IsNotNull();
+            AmazonMainPage searchPage = new AmazonMainPage(Driver);
+            searchPage.InputSearch("Java");
+            searchPage.OpenFilter();
+            searchPage.CheckBooks();
+            AmazonSearchResultsPage resPage = searchPage.ClickSearch();
+            var books = resPage.PopulateBooks();
+            //Assert.Contains()
+            //Assert.IsNotNull();
         }
     }
 }
