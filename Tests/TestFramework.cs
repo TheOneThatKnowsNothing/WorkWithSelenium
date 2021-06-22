@@ -1,9 +1,6 @@
 using NUnit.Framework;
-using WorkWithSelenium;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
-using PageObjectPattern;
 using System;
 
 namespace tests
@@ -24,7 +21,7 @@ namespace tests
                     "--disable-application-cache"
                 );
             Driver = new ChromeDriver("C:/WebDriver/bin/",options);
-            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(0.5);
         }
         [TearDown]
         public void TearDown()

@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using Models;
@@ -14,7 +13,7 @@ namespace PageObjectPattern
            Driver = driver;
         }
         List<IWebElement> BooksData => Driver.FindElements(By.XPath("//*[@id=\"search\"]/div[1]/div/div[1]/div/span[3]/div[2]/*[@data-uuid]")).ToList();
-        public List<Book> PopulateBooks()
+        public List<Book> ReturnBooks()
         {
             List<Book> books = new List<Book>();                
             foreach(var item in this.BooksData)
@@ -40,5 +39,6 @@ namespace PageObjectPattern
             }
             return books;
         }
+
     }
 }

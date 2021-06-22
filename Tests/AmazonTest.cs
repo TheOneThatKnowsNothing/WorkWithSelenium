@@ -22,13 +22,9 @@ namespace tests
             searchPage.CheckBooks();
             AmazonSearchResultsPage resPage = searchPage.ClickSearch();
             
-            var books = resPage.PopulateBooks();
-            
+            var books = resPage.ReturnBooks();
             Assert.That(books.Any(p => p.Equals(toCompare)));
-            //Assert.IsNotNull();
-            //Assert.IsNotEmpty(resPage.PopulateBooks());
-            
-            //Assert.Zero(books.Count());
         }
+    
     }
 }
