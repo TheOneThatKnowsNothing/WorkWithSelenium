@@ -21,7 +21,7 @@ namespace tests
                     "--disable-application-cache"
                 );
             Driver = new ChromeDriver("C:/WebDriver/bin/",options);
-            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(0.5);
+            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
         }
         [TearDown]
         public void TearDown()
