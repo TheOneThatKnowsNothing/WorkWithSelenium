@@ -13,7 +13,7 @@ namespace tests
             Book toCompare=new Book{
                 Name ="Head First Java, 2nd Edition",
                 Author="by Kathy Sierra and Bert Bates  |  May 11, 2009",
-                Price="$17.22 to rent",
+                Price="$17.15 to rent",
                 IsBestSeller=false
             };
             AmazonMainPage searchPage = new AmazonMainPage(Driver);
